@@ -1,4 +1,14 @@
 # -*- coding: utf-8 -*-
+"""
+LiveCycleCosts.py
+Grundklasse für das Modul LiveCycleManagement.
+- Berechnet die Lebenszykluskosten gleichzeitig mit und ohne Abdiskontiierung.
+- Additionsfunktion
+- Subtraktionsfunktion
+- Verteilungsfunktion
+Autor: Stefan Blaser
+Datum: 6.10.2014
+"""
 class LiveCycleCosts():
     """i = Zinssatz (in Teilen)"""
     def __init__(self, i):
